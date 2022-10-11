@@ -1,0 +1,51 @@
+libjhlabs-filters-java (2.0.235-4) unstable; urgency=medium
+
+  * Team upload.
+  * Update Vcs URLs to point to Salsa
+  * Use debhelper-compat 13
+  * Remove deprecated get-orig-source target
+  * Set Rules-Requires-Root: no in debian/control
+  * Bump Standards-Version to 4.5.1
+  * Freshen debian/copyright
+  * Remove doc-base file; jh_installjavadoc handles this.
+  * Update the libjhlabs-filters-java Uploaders list (Closes: #889360)
+
+ -- tony mancill <tmancill@debian.org>  Tue, 29 Dec 2020 20:51:32 -0800
+
+libjhlabs-filters-java (2.0.235-3.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 14:32:21 +0100
+
+libjhlabs-filters-java (2.0.235-3) unstable; urgency=low
+
+  * Add myself to Uploaders.
+  * Bump Standards-Version to 3.9.1 (no changes needed).
+  * Drop cdbs and switch to dh 7.
+  * Maven Repository:
+    - d/pom.xml: create simple POM for debian.
+    - d/control: B-D on maven-repo-helper
+    - d/rules: use mh_install{pom,jar} to install artifacts.
+  * d/control: drop runtime dependencies on JRE, its a library.
+  * d/copyright: upgrade to DEP-5 r166.
+  * d/watch: use repo1.maven.org.
+
+ -- Damien Raude-Morvan <drazzib@debian.org>  Sun, 06 Mar 2011 00:03:41 +0100
+
+libjhlabs-filters-java (2.0.235-2) unstable; urgency=low
+
+  * Team Upload
+  * Let start 'maintainers' with uppercase M.
+  * Update Standards-Version: 3.8.4.
+  * Replace java-jre by default-jre.
+  * Switch to source format 3.0.
+
+ -- Torsten Werner <twerner@debian.org>  Sun, 11 Apr 2010 00:04:28 +0200
+
+libjhlabs-filters-java (2.0.235-1) unstable; urgency=low
+
+  * Initial release (Closes: #541952)
+
+ -- Varun Hiremath <varun@debian.org>  Sun, 16 Aug 2009 18:09:05 -0400

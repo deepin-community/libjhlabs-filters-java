@@ -1,0 +1,18 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: jhlabs-filters
+Upstream-Contact: Jerry Huxtable
+Source: http://ftp.us.xemacs.org/pub/mirrors/maven2/com/jhlabs/filters/
+
+Files: *
+Copyright: 2006 Jerry Huxtable
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2009 Varun Hiremath <varun@debian.org>
+           2011 Damien Raude-Morvan <drazzib@debian.org>
+           2020 tony mancill <tmancill@debian.org>
+License: Apache-2.0
+
+License: Apache-2.0
+ On Debian systems the full text of the Apache-2.0 license can be found in
+ the /usr/share/common-licenses/Apache-2.0 file.

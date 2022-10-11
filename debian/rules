@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with javahelper
+
+override_dh_auto_install:
+	mh_installpom -plibjhlabs-filters-java debian/pom.xml
+	mh_installjar -plibjhlabs-filters-java -l -njhlabs-filters debian/pom.xml jhlabs-filters.jar

@@ -1,0 +1,23 @@
+Source: libjhlabs-filters-java
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Varun Hiremath <varun@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               default-jdk,
+               javahelper,
+               maven-repo-helper
+Standards-Version: 4.5.1
+Homepage: http://www.jhlabs.com/ip/filters/index.html
+Vcs-Git: https://salsa.debian.org/java-team/libjhlabs-filters-java.git
+Vcs-Browser: https://salsa.debian.org/java-team/libjhlabs-filters-java
+Rules-Requires-Root: no
+
+Package: libjhlabs-filters-java
+Architecture: all
+Depends: ${misc:Depends}, ${java:Depends}
+Description: Java Image Processing Filters
+ Jhlabs filters is a collection of large number of Java Image
+ filters. The filters are all standard Java BufferedImageOps and can
+ be plugged directly into existing programs. Most filters have dialogs
+ to allow you to play with their settings.
